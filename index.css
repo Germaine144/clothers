@@ -55,7 +55,7 @@ display: flex;
     flex: 4;
     padding: 20px;
 }
-img{
+.hats{
     width: 95%;
     height: 100%;
 }
@@ -74,4 +74,36 @@ img{
 .ri-search-eye-line{
     font-size: 30px;
     color: black;
+}
+.position{
+    position: absolute;
+    bottom: 30%;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 5px;
+    padding: 20px 10px;
+}
+.thin{
+    font-weight: thin;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 20px 35px;
+    border: none;
+    cursor: pointer;
+    font-weight: 100;
+}
+button:hover{
+    background-color: rgb(203, 203, 203);
+    color: black;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+img{
+    width: 170px;
+    height: 200px;
 }
