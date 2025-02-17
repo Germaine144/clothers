@@ -1,0 +1,26 @@
+*{
+    
+    box-sizing: border-box;
+}
+header{
+    color: red;
+    padding: 20px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: rgb(87, 84, 84);
+    cursor: pointer;
+    font-size: large;
+    list-style-type: none;
+}
+.black{
+    color: black;
+    font-weight: bold;
+}
+.skiny{
+    background-color: lightgray;
+    color: black;
+    font-weight: bold;
+}
