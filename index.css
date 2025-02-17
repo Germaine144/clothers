@@ -2,6 +2,14 @@
     
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
+/*body{
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}*/
 header{
     color: red;
     padding: 20px;
@@ -12,8 +20,17 @@ ul{
     gap: 20px;
     color: rgb(87, 84, 84);
     cursor: pointer;
-    font-size: large;
+    font-size: 25px;
     list-style-type: none;
+}
+ul{
+    width: 100px;
+    height: 100%;
+}
+li:hover{
+    background-color: lightgray;
+    color: black;
+    font-weight: ;
 }
 .black{
     color: black;
@@ -23,4 +40,38 @@ ul{
     background-color: lightgray;
     color: black;
     font-weight: bold;
+}
+.container{
+display: flex;
+
+}
+.left{
+    flex: 3;
+    padding: 20px;
+    resize: horizontal;
+    overflow-y: scroll;
+}
+.right{
+    flex: 4;
+    padding: 20px;
+}
+img{
+    width: 95%;
+    height: 100%;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+    display: flex;
+    gap: 26px;
+}
+.ri-shopping-cart-2-fill{
+    font-size: 30px;
+    color: black;
+}
+.ri-search-eye-line{
+    font-size: 30px;
+    color: black;
 }
