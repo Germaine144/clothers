@@ -107,3 +107,46 @@ img{
     width: 170px;
     height: 200px;
 }
+input{
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+.sub{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.send{
+    background-color: red;
+    color: white;
+    padding:10px ;
+    width: 15%;
+}
+.type{
+    border: 1px solid black;
+}
+.frm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+textarea{
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    resize: vertical;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+a{
+    color: black;
+}
