@@ -133,7 +133,9 @@ input{
 .frm{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 2px;
+    padding: 10px;
+    width: 100%;
 }
 textarea{
     padding: 10px;
@@ -146,7 +148,25 @@ textarea{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding: 20px;
 }
 a{
     color: black;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+.forms{
+   display: flex;
+   justify-content: space-around;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
 }
